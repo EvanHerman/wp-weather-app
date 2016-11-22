@@ -33,7 +33,6 @@ Copyright 2005-2016 The People
 
 class Weather_App {
 
-	// The API Key Instance
 	private $api_key;
 
 	private $base_url;
@@ -42,6 +41,7 @@ class Weather_App {
 
 		/**
 		 * API Keys can be retrieved from http://openweathermap.org/appid
+		 * Note: Moving forward this will be an option retrieved from the database.
 		 *
 		 * @var string
 		 */
