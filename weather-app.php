@@ -33,7 +33,6 @@ Copyright 2005-2016 The People
 
 class Weather_App {
 
-	// The API Key Instance
 	private $api_key;
 
 	private $base_url;
