@@ -41,6 +41,7 @@ class Weather_App {
 
 		/**
 		 * API Keys can be retrieved from http://openweathermap.org/appid
+		 * Note: Moving forward this will be an option retrieved from the database.
 		 *
 		 * @var string
 		 */
