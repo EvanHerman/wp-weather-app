@@ -8,6 +8,8 @@ License: GPLv2 or later
 
 Starter plugin, using namespaces and an autoloader.
 
+test
+
 == Description ==
 
 Starter plugin. Go through and update the necessary code.
