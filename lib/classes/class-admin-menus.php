@@ -31,7 +31,7 @@ final class Admin_Menus {
 	public function settings_page() {
 
 		add_submenu_page(
-			'tools.php',
+			'options-general.php',
 			__( 'Weather Station Plus', 'weather-station-plus' ),
 			__( 'Weather Station Plus', 'weather-station-plus' ),
 			'manage_options',

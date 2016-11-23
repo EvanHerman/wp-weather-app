@@ -3,6 +3,12 @@
  * Constants
  */
 
+ if ( ! defined( 'WSP_VERSION' ) ) {
+
+ 	define ( 'WSP_VERSION', '1.0.0' );
+
+ }
+
  if ( ! defined( 'WSP_URL' ) ) {
 
  	define ( 'WSP_URL', plugin_dir_url( __FILE__ ) );

@@ -60,9 +60,15 @@ if ( ! class_exists( 'Weather_Station_Plus' ) ) {
 
 			require_once __DIR__ . '/lib/constants.php';
 
+			require_once __DIR__ . '/lib/helpers.php';
+
 			add_action( 'plugins_loaded', [ $this, 'i18n' ] );
 
 			add_action( 'admin_menu', [ new WSP\Admin_Menus, 'settings_page' ] );
+
+			add_action( 'admin_init', [ new WSP\Settings, 'settings_init' ] );
+
+			new WSP\Shortcodes;
 
 			if ( version_compare( $cur_php_version, $this->php_min_version, '<' ) ) {
 
